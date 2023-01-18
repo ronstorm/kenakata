@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { Outlet, Link } from "react-router-dom";
-import { ReactComponent as KenakataLogo } from '../../assets/logo-1.svg';
+import { ReactComponent as KenakataLogo } from '../../assets/k-logo.svg';
 import './navigation.styles.scss';
 
 const Navigation = () => {
@@ -13,6 +13,9 @@ const Navigation = () => {
                 <div className="nav-links-container">
                     <Link className="nav-link" to='/shop'>
                         SHOP
+                    </Link>
+                    <Link className="nav-link" to='/sign-in'>
+                        SIGN IN
                     </Link>
                 </div>
             </div>
